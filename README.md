@@ -4,7 +4,7 @@
 
 Tempo combines food logging and training plans in one app, built to be installed to an iPhone home screen as a web app. Dark mode, one sage accent, no clutter: no water tracking and no motivational pop-ups.
 
-**Live demo:** swansog06.github.io/Tempo/
+**Live demo:** https://greys-tempo-app.netlify.app
 
 ## Features
 
@@ -33,10 +33,12 @@ Tempo combines food logging and training plans in one app, built to be installed
 
 ## How it works
 
-Tempo is a single-page web app with no build step and no server:
+Tempo is a single-page web app written in plain JavaScript, with no framework, no build step and no server:
 
 ```
-index.html        the whole app: markup, styles and logic
+index.html        page shell
+app.js            app logic: food search, training plans, progress, storage
+style.css         styles
 s/manifest.json   index of the food-database shards
 s/i*.json         search index shards
 s/r*.json         food record shards
