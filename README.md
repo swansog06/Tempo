@@ -4,7 +4,7 @@
 
 Tempo combines food logging and training plans in one app, built to be installed to an iPhone home screen as a web app. Dark mode, one sage accent, no clutter: no water tracking and no motivational pop-ups.
 
-**Live demo:** https://greys-tempo-app.netlify.app
+**Live demo:** swansog06.github.io/Tempo/
 
 ## Features
 
